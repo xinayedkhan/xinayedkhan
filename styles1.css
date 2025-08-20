@@ -12,70 +12,128 @@ nav{
              background-color: #fd6e0a;color: white;border-radius: 5px;border: none;font-size: 20px; 
             font-weight: bold;padding: 18px 35px; }
 .header{
+
              background-image: url('../images/developer.png'),url('../images/header_bg.png');
+             background-color: #FFF8F3;
              background-repeat: no-repeat;
              background-position:top left,bottom right ; 
-            background-color: #d49c73;
-        }
+            }
 .top{
             justify-content: space-between;
              display: flex; }
 .top-sen{
              font-family: "Sen", sans-serif;
              font-optical-sizing: auto;
-             font-weight: <weight>;
+             font-weight: jweight>;
              font-style: normal;}
-.mary{
+.atik{
     margin-left: 200px;
     font-weight: 800;
     font-size: 45px;
 }  
 
 .mary-description{
-   margin-left: 200px};
-.ip{  
-font-weight: 600;
-font-size: 60px;
+    margin-left: 200px;
 }
-.ik{
-font-weight: bold;  
-font-size: 20px;  
-}
-.im{
-font-size: 20px;
+.greetings{
 
+    font-weight: 600;
+    font-size: 45px;
+}
+.para{
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.hardy{
+   font-weight: bold;
+    font-size: 85px;
 }
 .about{
     display: flex;
    justify-content: space-around;
-    text-align: center;
+   text-align: center;
+   background-color:#ffffff ;
 }
-
-.display{
-margin: 50px 300px,300px 300px;
-padding: 270px 100px 100px 100px;
-}
-
-
 .about-me{
     
    text-align: center;
-   padding: 270px;
-   background-color: #f3e2d5;
-   margin: 100px 300px,300px 300px;
+   padding: 100px 200px 100px 200px;
+   background-color: #FFF8F3;
+   margin: 100px 300px 100px 300px;
 }
-.jk{
-    font-size: 20px;
-
-}
-.junayed{
-display: flex;
-margin: 50px;
-padding: 50px;
-background-color: #f3e2d5;
-text-align: justify;
-}
-
-.junayed2{
+.whatido{
     text-align: center;
+    padding: 10px 300px 5px 300px;
+    margin:0px  345px 0px 345px ;
+    
+}
+.about-me-main{
+    background-color: #ffffff;
+    border: 2px solid black;
+}
+.three{
+
+  display: flex;
+  text-align: center;
+  padding: 10px 200px 10px 200px;
+  margin: 10px 200px 10px 200px  ;
+  justify-content: space-around;
+
+}
+.all-div{
+
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 200px 10px  200px;
+    padding: 10px 200px 10px 200px;
+}
+.div{
+    background-color: #fcddc7;
+    margin: 20px;
+    padding: 15px;
+    text-align: justify;
+}
+
+
+.resume{
+    display: flex;
+    margin: 30px 200px 30px 200px ;
+}
+.my{
+   margin: 30px 200px 30px 200px  ;
+}
+.head{
+    text-align: center;
+
+}
+.cv{
+     background-color: #fd6e0a;
+     color: white;
+     border-radius: 5px;
+     border: none;
+     font-size: 20px;       
+     font-weight: bold;
+     padding: 18px 35px;
+     text-align: center; 
+     
+     }
+   .footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+    padding: 200px;
+    border: none;
+   }
+
+.submit{
+    background-color: #fd6e0a;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
+}
+.cv-{
+    text-align: center;
 }

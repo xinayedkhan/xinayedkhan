@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+
+<title>Mary</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #fffaf5; /* light beige */
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 40px;
+    }
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .logo span:first-child {
+        color: black;
+    }
+    .logo span:last-child {
+        color: orange;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #555;
+        font-size: 14px;
+    }
+    .hire-btn {
+        background-color: orange;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .hire-btn:hover {
+        background-color: darkorange;
+    }
+</style>
 </head>
 <body>
-    
+
+<header>
+    <div class="logo">
+        <span>Ma</span><span>ry</span>
+    </div>
+    <nav>
+        <a href="#">Portfolio</a>
+        <a href="#">Blog</a>
+        <button class="hire-btn">Hire Me</button>
+    </nav>
+</header>
+
 </body>
 </html>

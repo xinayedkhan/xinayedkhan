@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Hero */
+.hero {
+  background: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.nav-links .btn.hire-me {
+  background: #ff6b6b;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  margin: 1rem 0.5rem 0;
+  padding: 0.6rem 1.2rem;
+  background: #ff6b6b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.btn.outline {
+  background: transparent;
+  border: 2px solid #ff6b6b;
+  color: #ff6b6b;
+}
+
+/* About */
+.about {
+  background: #fff;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+.info-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Services */
+.services {
+  padding: 2rem;
+}
+.services .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+/* Resume */
+.resume {
+  background: #fff;
+  padding: 2rem;
+  margin: 1rem 0;
+}
+.resume-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.resume-container > div {
+  flex: 1;
+}
+
+/* Contact */
+.contact {
+  background: #fff;
+  padding: 2rem;
+}
+.contact .social {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+}
+.contact-form button {
+  margin-top: 1rem;
+}
+
+       

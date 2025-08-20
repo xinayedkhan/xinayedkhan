@@ -1,0 +1,81 @@
+.name{
+           color: #fd6e0a;}
+nav ul{
+            list-style-type: none;display: flex;align-items: center; }
+ nav ul li a{
+            text-decoration: none;color: #474747;}
+nav ul li{
+           margin-right: 51px; }
+nav{
+             display: flex; align-items: center;justify-content: space-between; }
+.button-color{ 
+             background-color: #fd6e0a;color: white;border-radius: 5px;border: none;font-size: 20px; 
+            font-weight: bold;padding: 18px 35px; }
+.header{
+             background-image: url('../images/developer.png'),url('../images/header_bg.png');
+             background-repeat: no-repeat;
+             background-position:top left,bottom right ; 
+            background-color: #d49c73;
+        }
+.top{
+            justify-content: space-between;
+             display: flex; }
+.top-sen{
+             font-family: "Sen", sans-serif;
+             font-optical-sizing: auto;
+             font-weight: <weight>;
+             font-style: normal;}
+.mary{
+    margin-left: 200px;
+    font-weight: 800;
+    font-size: 45px;
+}  
+
+.mary-description{
+   margin-left: 200px};
+.ip{  
+font-weight: 600;
+font-size: 60px;
+}
+.ik{
+font-weight: bold;  
+font-size: 20px;  
+}
+.im{
+font-size: 20px;
+
+}
+.about{
+    display: flex;
+   justify-content: space-around;
+    text-align: center;
+}
+
+.display{
+margin: 50px 300px,300px 300px;
+padding: 270px 100px 100px 100px;
+}
+
+
+.about-me{
+    
+   text-align: center;
+   padding: 270px;
+   background-color: #f3e2d5;
+   margin: 100px 300px,300px 300px;
+}
+.jk{
+    font-size: 20px;
+
+}
+.junayed{
+display: flex;
+margin: 50px;
+padding: 50px;
+background-color: #f3e2d5;
+text-align: justify;
+}
+
+.junayed2{
+    text-align: center;
+}
